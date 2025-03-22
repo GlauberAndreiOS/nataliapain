@@ -3,7 +3,7 @@
 import {Button} from "@/components/ui/button";
 
 // hooks
-import useSectionScroll from "@/hooks/useSectionScroll";
+import useSectionScroll from "@/app/hooks/useSectionScroll";
 
 export default function Home() {
 	useSectionScroll()
@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<div className="min-h-screen bg-gray-100 text-gray-900">
 			{/* Header Section */}
-			<section id="header" className="bg-blue-600 text-white py-16 text-center min-h-screen flex flex-col justify-center items-center bg-[url('../assets/background_header.webp')] bg-center bg-cover">
+			<section id="header" className="bg-blue-600 text-white py-16 text-center min-h-screen flex flex-col justify-center items-center bg-[url('/background_header.webp')] bg-center bg-cover">
 				<h4 className="text-md text-mono font-bold">NATÁLIA PAIN</h4>
 				<h3 className="text-md text-mono font-bold">PSICÓLOGA ESPECIALISTA</h3>
 				<figure className="w-100 h-100 overflow-hidden border-4 border-white rounded my-6">

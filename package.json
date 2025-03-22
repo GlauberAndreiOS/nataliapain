@@ -2,12 +2,13 @@
   "name": "psicologa-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://seu-usuario.github.io/nome-do-repositorio",
+  "homepage": "https://GlauberAndreiOS.github.io/nataliapain",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
   }
 }
